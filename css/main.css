@@ -1,0 +1,44 @@
+*{
+	font-family: 'Lato', sans-serif;
+ 	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background-image: url("../img/jessicaWalsh.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 98vh;
+	width: 100%;
+}
+/*PORTFOLIO*/
+.portfolio-img{
+	color: #fff;
+}
+.img-size{
+	width:400px;
+	height:450px;
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+.box > div:first-child{
+	background: #28252f;
+	padding: 10px;
+
+}
+.box > div:last-child{
+	background-color: #000;
+	padding: 10px;
+}
+
+.project1{
+	background-image: url("../img/portfolio-project1.jpg");
+}
+.project2{
+	background-image: url("../img/portfolio-project2.jpg");
+}
+.project3{
+	background-image: url("../img/portfolio-project3.jpg");
+}
+.project4{
+	background-image: url("../img/portfolio-project4.jpg");
+}
